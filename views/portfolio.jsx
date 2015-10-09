@@ -31,11 +31,11 @@ var Portfolio = React.createClass({
 		    <div className="container-fluid">
 		        <div className="row no-gutter">
 		            {data.portfolioimage1 ? <PortfolioItem image={data.portfolioimage1} category={data.portfoliocategory1} name={data.portfolioname1} /> : ''}
-		            {data.portfolioimage1 ? <PortfolioItem image={data.portfolioimage2} category={data.portfoliocategory2} name={data.portfolioname2} /> : ''}
-		            {data.portfolioimage1 ? <PortfolioItem image={data.portfolioimage3} category={data.portfoliocategory3} name={data.portfolioname3} /> : ''}
-		            {data.portfolioimage1 ? <PortfolioItem image={data.portfolioimage4} category={data.portfoliocategory4} name={data.portfolioname4} /> : ''}
-		            {data.portfolioimage1 ? <PortfolioItem image={data.portfolioimage5} category={data.portfoliocategory5} name={data.portfolioname5} /> : ''}
-		            {data.portfolioimage1 ? <PortfolioItem image={data.portfolioimage6} category={data.portfoliocategory6} name={data.portfolioname6} /> : ''}
+		            {data.portfolioimage2 ? <PortfolioItem image={data.portfolioimage2} category={data.portfoliocategory2} name={data.portfolioname2} /> : ''}
+		            {data.portfolioimage3 ? <PortfolioItem image={data.portfolioimage3} category={data.portfoliocategory3} name={data.portfolioname3} /> : ''}
+		            {data.portfolioimage4 ? <PortfolioItem image={data.portfolioimage4} category={data.portfoliocategory4} name={data.portfolioname4} /> : ''}
+		            {data.portfolioimage5 ? <PortfolioItem image={data.portfolioimage5} category={data.portfoliocategory5} name={data.portfolioname5} /> : ''}
+		            {data.portfolioimage6 ? <PortfolioItem image={data.portfolioimage6} category={data.portfoliocategory6} name={data.portfolioname6} /> : ''}
 		        </div>
 		    </div>
 		</section>
